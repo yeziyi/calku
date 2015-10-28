@@ -287,17 +287,17 @@ public class MainActivity extends Activity {
 
 	}
 
+	private void requestNewInterstitial() {
+		AdRequest adRequest = new AdRequest.Builder().build();
+		mInterstitialAd.loadAd(adRequest);
+	}
+
 	@Override
 	protected void onDestroy() {
 		if (mInterstitialAd.isLoaded()) {
 			mInterstitialAd.show();
 		}
 		super.onDestroy();
-	}
-
-	private void requestNewInterstitial() {
-		AdRequest adRequest = new AdRequest.Builder().build();
-		mInterstitialAd.loadAd(adRequest);
 	}
 
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
