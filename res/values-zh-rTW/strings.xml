@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Calcudoku</string>
-
-    <string name="menu_new">New Game</string>
-    <string name="menu_save">Save/Load</string>
-    <string name="menu_restart_game">Restart Game</string>     
-    <string name="menu_share">Share puzzle</string>    
-    <string name="menu_stats">Statistics</string>
-    <string name="menu_settings">Settings</string>
-    <string name="menu_help">Help</string>
-
-    <string name="menu_show_mistakes">Show mistakes</string>  
-    <string name="menu_reveal_cell">Reveal cell</string>
-    <string name="menu_reveal_cage">Reveal cage</string>
-    <string name="menu_show_solution">Show solution</string>   
-    
-    <string name="grid_size_4">4x4 (Easy)</string>
-    <string name="grid_size_5">5x5 (Medium)</string>
-    <string name="grid_size_6">6x6 (Hard)</string>
-    <string name="grid_size_7">7x7 (Harder)</string>
-    <string name="grid_size_8">8x8 (Hardest)</string>
-    <string name="grid_size_9">9x9 (Ultimate)</string>
-    
+    <string name="app_name">魔數方陣</string>
+    <string name="menu_new">新遊戲</string>
+    <string name="menu_save">保存/讀取</string>
+    <string name="menu_restart_game">重新遊戲</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_stats">統計</string>
+    <string name="menu_settings">設置</string>
+    <string name="menu_help">幫助</string>
+    <string name="menu_morw_game">更多遊戲</string>
+    <string name="menu_quit">退出</string>
+    <string name="quit_alert">您確定退出遊戲嗎?</string>
+    <string name="quit_title_confirm">退出遊戲</string>
+    <string name="menu_show_mistakes">檢查錯誤</string>
+    <string name="menu_reveal_cell">提示本格</string>
+    <string name="menu_reveal_cage">提示本組</string>
+    <string name="menu_show_solution">顯示答案</string>
+    <string name="grid_size_4">4x4 (簡單)</string>
+    <string name="grid_size_5">5x5 (一般)</string>
+    <string name="grid_size_6">6x6 (困難)</string>
+    <string name="grid_size_7">7x7 (很難)</string>
+    <string name="grid_size_8">8x8 (超難)</string>
+    <string name="grid_size_9">9x9 (巨難)</string>
     <string name="number1">1</string>
     <string name="number2">2</string>
     <string name="number3">3</string>
@@ -31,129 +31,110 @@
     <string name="number7">7</string>
     <string name="number8">8</string>
     <string name="number9">9</string>
-    
-    <string name="mode_pen">Pen</string>
-    <string name="mode_pencil">Pencil</string>
-    <string name="mode_eraser">Eraser</string>
-    
-    <string name="button_play">Load game</string>
-    <string name="button_remove">Delete game</string>
-    
-    <string name="puzzle_solved">Puzzle solved</string>
-    <string name="puzzle_record_time">New best time! - </string>
-    <string name="puzzle_time">Time - </string>
-    <string name="puzzle_screenshot">Saving screenshot to </string>
-    
+    <string name="mode_pen">標記</string>
+    <string name="mode_pencil">確認</string>
+    <string name="mode_eraser">清除</string>
+    <string name="button_play">載入遊戲</string>
+    <string name="button_remove">刪除遊戲</string>
+    <string name="puzzle_solved">遊戲完成</string>
+    <string name="puzzle_record_time">新紀錄! -</string>
+    <string name="puzzle_time">時間 -</string>
+    <string name="puzzle_screenshot">保存截圖到</string>
     <string name="time_zero">00:00:00</string>
-    <string name="save_current_game">Save current game</string>
-    <string name="save_games_empty">No save games found</string>
-   
-    
-    <string name="settings_group_puzzle">Puzzle Generation</string>
-    <string name="setting_default_game_grid_title">Default game grid</string>
-    <string name="setting_default_game_grid_summary">Set the grid size for new games</string>
-    <string name="setting_default_operations_title">Default operations</string>
-    <string name="setting_default_operations_summary">Choose arithmetic modes of operation</string>
-    <string name="setting_show_operators_title">Always show operators</string>
-    <string name="setting_show_operators_summary_on">Operators (+, -, *, /) will be displayed</string>
-    <string name="setting_show_operators_summary_off">Operators (+, -, *, /) will not be displayed</string>
-    
-    <string name="settings_group_assistance">Game Assistance</string>
-    <string name="setting_flag_bad_maths_title">Highlight incorrect maths</string>
-    <string name="setting_flag_duplicates_title">Highlight duplicates</string>
-    <string name="setting_remove_pencils_title">Auto-remove pencil marks</string>
-    <string name="setting_remove_pencils_summary">In the same row or column as a penned number</string>
-
-    <string name="settings_group_display">Display</string>
-    <string name="setting_theme_title">Theme</string>
-    <string name="setting_pencil_3x3_title">Pencil marks in 3x3 grid</string>
-    <string name="setting_pencil_3x3_summary_on">Show in 3x3 grid</string>
-    <string name="setting_pencil_3x3_summary_off">Show in numerical order instead</string> 
-    <string name="setting_show_timer_title">Show game timer</string>
-    <string name="setting_show_fullscreen_title">Show full screen</string>
-    <string name="setting_keep_screen_on_title">Keep screen on</string>
-    
-    <string name="settings_group_about">HoloKen</string>
+    <string name="save_current_game">保存本次結果</string>
+    <string name="save_games_empty">存檔未找到</string>
+    <string name="settings_group_puzzle">基本設置</string>
+    <string name="setting_default_game_grid_title">默認難度</string>
+    <string name="setting_default_game_grid_summary">為遊戲設置難度</string>
+    <string name="setting_default_operations_title">默認運算方式</string>
+    <string name="setting_default_operations_summary">選擇算法</string>
+    <string name="setting_show_operators_title">是否顯示運算符</string>
+    <string name="setting_show_operators_summary_on">運算符 (+, -, *, /) 顯示</string>
+    <string name="setting_show_operators_summary_off">運算符 (+, -, *, /) 隱藏</string>
+    <string name="settings_group_assistance">遊戲援助</string>
+    <string name="setting_flag_bad_maths_title">錯誤數字高亮顯示</string>
+    <string name="setting_flag_duplicates_title">重復數字高亮顯示</string>
+    <string name="setting_remove_pencils_title">自動清除標記</string>
+    <string name="setting_remove_pencils_summary">自動清除重復數字的標記</string>
+    <string name="settings_group_display">顯示屬性</string>
+    <string name="setting_theme_title">樣式</string>
+    <string name="setting_pencil_3x3_title">標記顯示樣式</string>
+    <string name="setting_pencil_3x3_summary_on">標記以3x3樣式顯示</string>
+    <string name="setting_pencil_3x3_summary_off">俺數字排列順序</string>
+    <string name="setting_show_timer_title">顯示遊戲時間</string>
+    <string name="setting_show_fullscreen_title">全屏顯示</string>
+    <string name="setting_keep_screen_on_title">保持屏幕常亮</string>
+    <string name="settings_group_about">數字方陣</string>
     <string name="setting_rate_app_title">Rate HoloKen</string>
     <string name="setting_rate_app_summary">Rate HoloKen in the Google Play Store</string>
     <string name="setting_report_bugs_title">Any bugs or suggested features?</string>
     <string name="setting_report_bugs_summary">Click here to report them online</string>
-    
-    <string name="stats_group_title">Statistics</string>
-    <string name="stats_puzzles_title">Puzzle Statistics</string>
-    <string name="stats_times_title">Times - Best // Average</string>
-    <string name="stats_puzzles_started">Puzzles started</string>
-    <string name="stats_puzzles_hinted">Puzzles hinted</string>
-    <string name="stats_puzzles_solved">Puzzles solved</string>
-    <string name="stats_puzzles_solved_streak">Current streak</string>
-    <string name="stats_puzzles_longest_streak">Longest streak</string>
-    <string name="stats_clear">Reset statistics</string>
-    
-    
-    <string name="help_section_title">Help</string>
-    <string name="help_rules_title">Rules</string>
-    <string name="help_rules_summary">
-        Fill in each row and column with numbers from 1 to grid size (4-9).
-        Numbers may only be used once per row and column.\n\n
-        Thick lines indicate \'cages\', where each cage has a math puzzle to be solved.
-        For example, \'5+\' means all numbers in that cage must add up to 5.\n\n
-        Numbers may be used more than once per cage, as long as there is only one of each number per row or column.
-    </string>
-    <string name="help_instructions_title">How to play</string>
-    <string name="help_instructions_summary">
-        Fill up the grid squares using the number buttons.
-        Toggle between pen, pencil and eraser modes to mark or clear possibilities.
-        Quick toggle between input modes - select cell first or select number first.\n\n
-        Long-press a cell for more hints (show mistakes, reveal cell, show solution).\n
-         ^ warning: use of hints will add a time penalty and break your current streak\n\n
-        Long-press the Pen/Pencil button to quickly pen in all singular Pencil marks.\n\n
-        HoloKen will auto-save your game if you need to stop.      
-    </string>
-    
-    <string name="about_section_title">About</string>
-    <string name="about_version_title">Version</string>
-    <string name="about_version_summary">HoloKen 1.1.1</string>
+    <string name="stats_group_title">統計</string>
+    <string name="stats_puzzles_title">遊戲統計</string>
+    <string name="stats_times_title">時間 - 最快 // 平均</string>
+    <string name="stats_puzzles_started">遊戲次數</string>
+    <string name="stats_puzzles_hinted">提示次數</string>
+    <string name="stats_puzzles_solved">遊戲完成數</string>
+    <string name="stats_puzzles_solved_streak">當前連勝數</string>
+    <string name="stats_puzzles_longest_streak">最長連勝數</string>
+    <string name="stats_clear">重置統計數據</string>
+    <string name="help_section_title">幫助</string>
+    <string name="help_rules_title">遊戲規則</string>
+    <string name="help_rules_summary">"將1到列數 (4-9) 填入每個方塊中 每行每列同一數字只能填寫一次
+
+ 多個方塊合成一組，每組有一定的算術規則限制，每組方塊中填寫的數字必須滿足該組的算術規則
+
+ 比如：
+
+ '3+'，要求該組內所有數字相加等於3 
+
+ '3-'，要求該組內數字按一定次序相減等於3 
+
+ '3*'，要求該組內所有數字相乘等於3 
+
+ '3/'，要求該組內數字按一定次序做除法等於3 
+
+"</string>
+    <string name="help_instructions_title">遊戲方法</string>
+    <string name="help_instructions_summary">"利用數字按鈕向方塊中填寫數字. 
+ 切換鉛筆，鋼筆和橡皮3種模式，來標記，確認或擦除方塊中的數字. 
+
+ 長按方塊能得到相應的提示來幫助你完成遊戲.
+ 當然是用提示會處罰時間，並且打斷你當前的思路
+
+ 長按鉛筆鋼筆切換按鈕，可以快速將選中方格內的數字狀態進行切換.
+
+ 在你需要暫停時遊戲會自動給您保存進度。."</string>
+    <string name="about_section_title">關於</string>
+    <string name="about_version_title">版本</string>
+    <string name="about_version_summary">數字方陣 1.0.0</string>
     <string name="about_license_title">License</string>
     <string name="about_license_summary">GNU General Public License v3</string>
     <string name="about_website_title">Project Home</string>
-    <string name="about_website_summary">Report any bugs or suggestions at\n<a href="http://holoken.googlecode.com">http://holoken.googlecode.com</a></string>
+    <string name="about_website_summary">"Report any bugs or suggestions at
+"<a href="http://holoken.googlecode.com">http://holoken.googlecode.com</a></string>
     <string name="about_developers_title">Developer</string>
     <string name="about_developers_summary">Amanda Chow, with much credit to Ben Buxton and Stephen Lee of Mathdoku</string>
     <string name="about_changelog_title">Changelog</string>
-    <string name="about_changelog_summary">
-        v1.1.1\n * Fixed slight border bug\n
-        v1.1\n * Shows streaks and average times in statistics\n
-               * Changed time penalty\n
-               * Added input mode, batch undo fixes\n
-               * Auto-remove pencil marks, fix layout bug\n
-        v1.0.3\n * Theme tweaks and multiple undo\n
-        v1.0\n * Initial release
-    </string>
-    
-    <string name="dialog_ok">OK</string>
-    <string name="dialog_cancel">Cancel</string>
-    
-    <string name="dialog_building_msg">Generating puzzle&#8230;</string>
-    
-    <string name="dialog_restart_title">Restart game?</string>
-    <string name="dialog_restart_msg">This game will be restarted</string>
-    
-    <string name="dialog_delete_title">Delete game?</string>
-    <string name="dialog_delete_msg">This game will be deleted</string>
-    
-    <string name="dialog_delete_all_title">Delete all games?</string>
-    <string name="dialog_delete_all_msg">All games will be deleted</string>
-    
-    <string name="toast_cheated">This puzzle is hard eh</string>
-    <!-- string name="toast_mistakes">mistake(s) / </string-->
-    <!-- string name="toast_filled">filled cell(s)</string-->
-    <plurals name="toast_mistakes">
-        <item quantity="one">1 mistake / </item>
-        <item quantity="other">%d mistakes / </item>
-    </plurals>
-    <plurals name="toast_filled">
-        <item quantity="one">1 filled cell </item>
-        <item quantity="other">%d filled cells</item>
-    </plurals>
-    
+    <string name="about_changelog_summary">"v1.1.1
+ * Fixed slight border bug
+ v1.1
+ * Shows streaks and average times in statistics
+ * Changed time penalty
+ * Added input mode, batch undo fixes
+ * Auto-remove pencil marks, fix layout bug
+ v1.0.3
+ * Theme tweaks and multiple undo
+ v1.0
+ * Initial release"</string>
+    <string name="dialog_ok">確認</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_building_msg">生成遊戲…</string>
+    <string name="dialog_restart_title">重置遊戲嗎?</string>
+    <string name="dialog_restart_msg">遊戲將被重置</string>
+    <string name="dialog_delete_title">刪除該存檔嗎?</string>
+    <string name="dialog_delete_msg">該存檔將被刪除</string>
+    <string name="dialog_delete_all_title">刪除所有存檔嗎?</string>
+    <string name="dialog_delete_all_msg">所有存檔將被刪除</string>
+    <string name="toast_cheated">這個次遊戲真的很難</string>
 </resources>

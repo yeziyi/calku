@@ -551,20 +551,25 @@ public class MainActivity extends Activity {
 	}
 
 	public void restoreSaveGame(SaveGame saver) {
-		if (saver.Restore(this.kenKenGrid)) {
-			startFreshGrid(false);
-			if (!this.kenKenGrid.isSolved())
-				this.kenKenGrid.mActive = true;
-			else {
-				this.kenKenGrid.mActive = false;
-				this.kenKenGrid.mSelectedCell.mSelected = false;
-				this.actions[1].setVisibility(View.INVISIBLE);
-				titleContainer.setBackgroundColor(0xFF0099CC);
-				mTimerHandler.removeCallbacks(playTimer);
+		try {
+			if (saver.Restore(this.kenKenGrid)) {
+				startFreshGrid(false);
+				if (!this.kenKenGrid.isSolved())
+					this.kenKenGrid.mActive = true;
+				else {
+					this.kenKenGrid.mActive = false;
+					this.kenKenGrid.mSelectedCell.mSelected = false;
+					this.actions[1].setVisibility(View.INVISIBLE);
+					titleContainer.setBackgroundColor(0xFF0099CC);
+					mTimerHandler.removeCallbacks(playTimer);
+				}
+				this.kenKenGrid.invalidate();
+			} else {
+				newGameDialog();
 			}
-			this.kenKenGrid.invalidate();
-		} else
+		} catch (Exception e) {
 			newGameDialog();
+		}
 	}
 
 	public void storeStats(boolean newGame) {
