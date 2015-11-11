@@ -9,6 +9,7 @@ import android.view.WindowManager;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
+import com.smartapp.calcudoku.R;
 
 public class StatsActivity extends Activity {
     

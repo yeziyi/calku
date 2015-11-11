@@ -57,7 +57,7 @@
     <string name="setting_remove_pencils_title">自动清除标记</string>
     <string name="setting_remove_pencils_summary">自动清除重复数字的标记</string>
     <string name="settings_group_display">显示属性</string>
-    <string name="setting_theme_title">样式</string>
+    <string name="setting_theme_title">主题</string>
     <string name="setting_pencil_3x3_title">标记显示样式</string>
     <string name="setting_pencil_3x3_summary_on">标记以3x3样式显示</string>
     <string name="setting_pencil_3x3_summary_off">俺数字排列顺序</string>
@@ -107,26 +107,15 @@
  在你需要暂停时游戏会自动给您保存进度。."</string>
     <string name="about_section_title">关于</string>
     <string name="about_version_title">版本</string>
-    <string name="about_version_summary">数字方阵 1.0.0</string>
-    <string name="about_license_title">License</string>
-    <string name="about_license_summary">GNU General Public License v3</string>
-    <string name="about_website_title">Project Home</string>
-    <string name="about_website_summary">"Report any bugs or suggestions at
-"<a href="http://holoken.googlecode.com">http://holoken.googlecode.com</a></string>
-    <string name="about_developers_title">Developer</string>
-    <string name="about_developers_summary">Amanda Chow, with much credit to Ben Buxton and Stephen Lee of Mathdoku</string>
-    <string name="about_changelog_title">Changelog</string>
-    <string name="about_changelog_summary">"v1.1.1
- * Fixed slight border bug
- v1.1
- * Shows streaks and average times in statistics
- * Changed time penalty
- * Added input mode, batch undo fixes
- * Auto-remove pencil marks, fix layout bug
- v1.0.3
- * Theme tweaks and multiple undo
- v1.0
- * Initial release"</string>
+    <string name="about_version_summary">魔数方阵 1.1.1</string>
+    <string name="about_license_title"></string>
+    <string name="about_license_summary"></string>
+    <string name="about_website_title"></string>
+    <string name="about_website_summary"></string>
+    <string name="about_developers_title"></string>
+    <string name="about_developers_summary"></string>
+    <string name="about_changelog_title"></string>
+    <string name="about_changelog_summary"></string>
     <string name="dialog_ok">确认</string>
     <string name="dialog_cancel">取消</string>
     <string name="dialog_building_msg">生成游戏…</string>
@@ -142,7 +131,7 @@
         <item quantity="other">%d 错误 / </item>
     </plurals>
     <plurals name="toast_filled">
-        <item quantity="one">1 错误格子 </item>
-        <item quantity="other">%d 错误格子</item>
+        <item quantity="one">1 格子 </item>
+        <item quantity="other">%d 格子</item>
     </plurals>
 </resources>
