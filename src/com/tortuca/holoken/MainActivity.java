@@ -737,7 +737,7 @@ public class MainActivity extends Activity {
 		File path = new File(
 				Environment
 						.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES)
-						+ "/HoloKen/");
+						+ "/Calcudoku/");
 		if (!path.exists())
 			path.mkdir();
 
@@ -745,7 +745,7 @@ public class MainActivity extends Activity {
 		for (GridCell cell : grid.mCells)
 			cell.mSelected = false;
 		grid.setDrawingCacheEnabled(true);
-		String filename = "/holoken_" + grid.mGridSize + "_"
+		String filename = "/calcudoku_" + grid.mGridSize + "_"
 				+ new SimpleDateFormat("yyyyMMdd_HHmm").format(new Date())
 				+ ".png";
 

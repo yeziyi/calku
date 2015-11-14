@@ -30,12 +30,12 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
             public boolean onPreferenceClick(Preference preference) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 try {
-                    intent.setData(Uri.parse("market://details?id=com.tortuca.holoken"));
+                    intent.setData(Uri.parse("market://details?id=com.smartapp.calcudoku"));
                     startActivity(intent);
                     return true;
                 }
                 catch (Exception e) {
-                    intent.setData(Uri.parse("http://play.google.com/store/apps/details?id=com.tortuca.holoken"));
+                    intent.setData(Uri.parse("http://play.google.com/store/apps/details?id=com.smartapp.calcudoku"));
                     startActivity(intent);
                     return false;
                 }

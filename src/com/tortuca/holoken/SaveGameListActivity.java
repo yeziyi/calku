@@ -23,7 +23,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 public class SaveGameListActivity extends ListActivity {
-    public static final String SAVEGAME_DIR = "/data/data/com.tortuca.holoken/";
+    public static final String SAVEGAME_DIR = "/data/data/com.smartapp.calcudoku/";
     public static final String SAVEGAME_AUTO = SAVEGAME_DIR + "autosave";
     public static final String SAVEGAME_PREFIX_ = SAVEGAME_DIR + "savegame_";
 
