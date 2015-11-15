@@ -10,7 +10,7 @@
         <item>9x9 (巨难)</item>
     </string-array>
     <string-array name="setting_default_game_grid_values">
-        <item>询问</item>
+        <item>ask</item>
         <item>4</item>
         <item>5</item>
         <item>6</item>

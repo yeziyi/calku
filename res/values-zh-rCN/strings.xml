@@ -65,8 +65,8 @@
     <string name="setting_show_fullscreen_title">全屏显示</string>
     <string name="setting_keep_screen_on_title">保持屏幕常亮</string>
     <string name="settings_group_about">数字方阵</string>
-    <string name="setting_rate_app_title">Rate HoloKen</string>
-    <string name="setting_rate_app_summary">Rate HoloKen in the Google Play Store</string>
+    <string name="setting_rate_app_title">给APP评分</string>
+    <string name="setting_rate_app_summary">去google play为APP评分</string>
     <string name="setting_report_bugs_title">Any bugs or suggested features?</string>
     <string name="setting_report_bugs_summary">Click here to report them online</string>
     <string name="stats_group_title">统计</string>

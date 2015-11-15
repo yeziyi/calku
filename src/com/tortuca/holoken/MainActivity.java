@@ -480,7 +480,11 @@ public class MainActivity extends Activity {
 		if (gridSizePref.equals("ask") || kenKenGrid.mActive)
 			newGameDialog();
 		else
-			postNewGame(Integer.parseInt(gridSizePref));
+			try {
+				postNewGame(Integer.parseInt(gridSizePref));
+			} catch (Exception e) {
+				newGameDialog();
+			}
 	}
 
 	public void postNewGame(final int gridSize) {
