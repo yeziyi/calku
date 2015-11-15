@@ -41,16 +41,6 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
                 }
             }
         });
-       
-        Preference reportBugs = findPreference("reportbugs"); 
-        reportBugs.setOnPreferenceClickListener(new OnPreferenceClickListener() {
-            public boolean onPreferenceClick(Preference preference) {
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("http://code.google.com/p/holoken/issues/list"));
-                startActivity(intent);
-                return true;
-            }
-        });
     }
   
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {

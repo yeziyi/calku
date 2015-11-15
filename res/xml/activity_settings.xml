@@ -72,9 +72,6 @@
             android:key="rateapp"
             android:title="@string/setting_rate_app_title"
             android:summary="@string/setting_rate_app_summary"/>
-        <Preference
-            android:key="reportbugs"
-            android:title="@string/setting_report_bugs_title"
-            android:summary="@string/setting_report_bugs_summary"/>
+       
     </PreferenceCategory>
 </PreferenceScreen>  

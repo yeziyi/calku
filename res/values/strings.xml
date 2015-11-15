@@ -112,23 +112,15 @@
     
     <string name="about_section_title">About</string>
     <string name="about_version_title">Version</string>
-    <string name="about_version_summary">HoloKen 1.1.1</string>
+    <string name="about_version_summary">Calcudoku 1.1.1</string>
     <string name="about_license_title">License</string>
     <string name="about_license_summary">GNU General Public License v3</string>
-    <string name="about_website_title">Project Home</string>
-    <string name="about_website_summary">Report any bugs or suggestions at\n<a href="http://holoken.googlecode.com">http://holoken.googlecode.com</a></string>
-    <string name="about_developers_title">Developer</string>
-    <string name="about_developers_summary">Amanda Chow, with much credit to Ben Buxton and Stephen Lee of Mathdoku</string>
-    <string name="about_changelog_title">Changelog</string>
-    <string name="about_changelog_summary">
-        v1.1.1\n * Fixed slight border bug\n
-        v1.1\n * Shows streaks and average times in statistics\n
-               * Changed time penalty\n
-               * Added input mode, batch undo fixes\n
-               * Auto-remove pencil marks, fix layout bug\n
-        v1.0.3\n * Theme tweaks and multiple undo\n
-        v1.0\n * Initial release
-    </string>
+    <string name="about_website_title"></string>
+    <string name="about_website_summary"></string>
+    <string name="about_developers_title"></string>
+    <string name="about_developers_summary"></string>
+    <string name="about_changelog_title"></string>
+    <string name="about_changelog_summary"></string>
     
     <string name="dialog_ok">OK</string>
     <string name="dialog_cancel">Cancel</string>
