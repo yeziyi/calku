@@ -736,8 +736,8 @@ public class MainActivity extends Activity {
 	}
 
 	public void getScreenShot() {
-		if (!kenKenGrid.mActive)
-			return;
+//		if (!kenKenGrid.mActive)
+//			return;
 		File path = new File(
 				Environment
 						.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES)
@@ -746,6 +746,9 @@ public class MainActivity extends Activity {
 			path.mkdir();
 
 		GridView grid = (GridView) findViewById(R.id.gridview);
+		if (grid.mCells == null) {
+			return;
+		}
 		for (GridCell cell : grid.mCells)
 			cell.mSelected = false;
 		grid.setDrawingCacheEnabled(true);
