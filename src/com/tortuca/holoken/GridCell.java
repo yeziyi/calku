@@ -258,7 +258,7 @@ public class GridCell {
   }
 
   /* Draw the cell. Border and text is drawn. */
-  public void onDraw(Canvas canvas, boolean onlyBorders) {
+  public void onDrawX(Canvas canvas, boolean onlyBorders) {
     
     // Calculate x and y for the cell origin (topleft)
     float cellSize = (float)this.mContext.getMeasuredWidth() / (float)this.mContext.mGridSize;

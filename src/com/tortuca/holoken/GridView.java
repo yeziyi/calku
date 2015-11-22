@@ -423,7 +423,7 @@ public class GridView extends View implements OnTouchListener  {
                   cell.mShowWarning = true;
               else
                   cell.mShowWarning = false;
-              cell.onDraw(canvas, false);
+              cell.onDrawX(canvas, false);
           }
 
           // Draw borders
@@ -434,7 +434,7 @@ public class GridView extends View implements OnTouchListener  {
 
           // Draw cells
           for (GridCell cell : this.mCells) {
-              cell.onDraw(canvas, true);
+              cell.onDrawX(canvas, true);
           }
 
           
