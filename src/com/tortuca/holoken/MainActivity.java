@@ -22,6 +22,7 @@ import java.io.FileOutputStream;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -56,9 +57,11 @@ import android.widget.RelativeLayout;
 import android.widget.TableLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 import com.smartapp.calcudoku.R;
+import com.tapjoy.TapjoyConnect;
 
 public class MainActivity extends Activity {
 
@@ -110,6 +113,9 @@ public class MainActivity extends Activity {
 		this.stats = getSharedPreferences("stats", MODE_PRIVATE);
 
 		setContentView(R.layout.activity_main);
+
+		TapjoyConnect.requestTapjoyConnect(this,
+				"45115e1c-423e-4b34-9cc6-be048ba4c12f", "GltP4s9SfMs9k33KCEPe");
 
 		// Associate variables with views
 		numbers[0] = (Button) findViewById(R.id.button1);
@@ -319,6 +325,7 @@ public class MainActivity extends Activity {
 
 		}
 		super.onPause();
+		TapjoyConnect.getTapjoyConnectInstance().appPause();
 	}
 
 	public void onResume() {
@@ -337,6 +344,7 @@ public class MainActivity extends Activity {
 			mTimerHandler.postDelayed(playTimer, 0);
 		}
 		super.onResume();
+		TapjoyConnect.getTapjoyConnectInstance().appResume();
 	}
 
 	@Override
@@ -736,8 +744,8 @@ public class MainActivity extends Activity {
 	}
 
 	public void getScreenShot() {
-//		if (!kenKenGrid.mActive)
-//			return;
+		// if (!kenKenGrid.mActive)
+		// return;
 		File path = new File(
 				Environment
 						.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES)
