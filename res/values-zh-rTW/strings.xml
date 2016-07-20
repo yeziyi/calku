@@ -8,10 +8,6 @@
     <string name="menu_stats">統計</string>
     <string name="menu_settings">設置</string>
     <string name="menu_help">幫助</string>
-    <string name="menu_morw_game">更多遊戲</string>
-    <string name="menu_quit">退出</string>
-    <string name="quit_alert">您確定退出遊戲嗎?</string>
-    <string name="quit_title_confirm">退出遊戲</string>
     <string name="menu_show_mistakes">檢查錯誤</string>
     <string name="menu_reveal_cell">提示本格</string>
     <string name="menu_reveal_cage">提示本組</string>
